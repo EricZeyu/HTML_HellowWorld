@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <canvas id="myCanvas" width="1000" height="618" style="border:5px solid darkblue">
+        The browser does not support the canvas table.
+    </canvas>
+
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "yellow";
+        ctx.fillRect(0,0,150,75);
+    </script>
+</body>
+</html>
